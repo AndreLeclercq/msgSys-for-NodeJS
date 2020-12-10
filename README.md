@@ -1,5 +1,3 @@
-**It is not yet a stable package.**
-
 # msgSys-for-NodeJS
 Stylize and Time the console.log message for NodeJS.
 
@@ -14,3 +12,6 @@ Stylize and Time the console.log message for NodeJS.
 ## Result in terminal
 
 ![logSys](https://i.imgur.com/QPR4vjH.png)
+
+## Get source from Github
+[github.com/AndreLeclercq/msgSys-for-NodeJS](https://github.com/AndreLeclercq/msgSys-for-NodeJS)
