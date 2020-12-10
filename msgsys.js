@@ -1,5 +1,14 @@
-// Find colors in https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+/**
+ * Find colors in https://en.wikipedia.org/wiki/ANSI_escape_code#Colors get the number in 'FG Code' column.
+ * Base Code : \x1b[xxm | replace de 'xx' by the correct number.
+ */
 
+/**
+ * Create a console.log with colors and time/date
+ * @function
+ * @param msg {string}
+ * @param type {string}
+ */
 module.exports = function logSys(msg, type) {
     let style
     switch (type) {
