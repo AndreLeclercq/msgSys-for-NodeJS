@@ -1,7 +1,5 @@
 // Find colors in https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
 
-import dateTime from './dateTime.js'
-
 module.exports = function logSys(msg, type) {
     let style
     switch (type) {
@@ -25,4 +23,15 @@ module.exports = function logSys(msg, type) {
     }
     type = type === undefined ? '' : `[${type}]`
     console.log(style, `[${dateTime()}]${type} ${msg}`, '\x1b[0m')
+}
+
+/**
+ * Create TimeCode
+ * @function
+ * @returns {string}
+ */
+function dateTime() {
+    let today = new Date()
+    let addZero = e => e >= 10 ? e : `0${e}`
+    return `${today.getFullYear()}-${addZero(today.getMonth() + 1)}-${addZero(today.getDate())} ${addZero(today.getHours())}:${addZero(today.getMinutes())}:${addZero(today.getSeconds())}`
 }
