@@ -1,0 +1,23 @@
+{
+  "name": "msgsys",
+  "version": "1.0.0",
+  "description": "Stylize and Time the console.log messages for NodeJS.",
+  "main": "msgsys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreLeclercq/msgSys-for-NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "console"
+  ],
+  "author": "André LECLERCQ",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/AndreLeclercq/msgSys-for-NodeJS/issues"
+  },
+  "homepage": "https://github.com/AndreLeclercq/msgSys-for-NodeJS#readme"
+}
