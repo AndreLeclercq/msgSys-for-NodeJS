@@ -4,7 +4,7 @@ Create a console.log with colors and time/date.
 ## Install msgSys
 run command `npm i msgsys`
 
-Import the module to your JavaScript files
+Import into your JavaScript files
 
 `let logSys = require('msgsys')` by default
 
@@ -28,14 +28,14 @@ Edit the `/node_modules/msgsys/msgsys.js` file and follow the instructions :
 
 Find colors in [Wikipedia ANSI escape code Colors](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors) get the number in `FG Code` column.
 
-Base Code : `\x1b[xxm` | replace de `xx` by the correct number.
+Base Code : `\x1b[xxm` replace `xx` by the correct number.
 
 ## Links
 * [Sources From Github](https://github.com/AndreLeclercq/msgSys-for-NodeJS)
 
 * [NPM package](https://www.npmjs.com/package/msgsys)
 
-* ☕ [Buy my a coffee](https://www.buymeacoffee.com/aleclercq)
+* [Buy my a coffee](https://www.buymeacoffee.com/aleclercq) ☕
 
 ## Licence
 
