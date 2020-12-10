@@ -2,7 +2,7 @@
 
 import dateTime from './dateTime.js'
 
-export default function logSys(msg, type) {
+exports.logSys = function(msg, type) {
     let style
     switch (type) {
         case 'success':
