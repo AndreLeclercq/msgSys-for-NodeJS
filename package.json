@@ -1,6 +1,6 @@
 {
   "name": "msgsys",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Stylize and Time the console.log messages for NodeJS.",
   "main": "msgsys.js",
   "scripts": {
