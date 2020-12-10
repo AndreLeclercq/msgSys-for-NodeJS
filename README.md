@@ -13,5 +13,9 @@ Stylize and Time the console.log message for NodeJS.
 
 ![logSys](https://i.imgur.com/QPR4vjH.png)
 
-## Get source from Github
-[github.com/AndreLeclercq/msgSys-for-NodeJS](https://github.com/AndreLeclercq/msgSys-for-NodeJS)
+## Links
+* [Sources From Github](https://github.com/AndreLeclercq/msgSys-for-NodeJS)
+
+* [NPM package](https://www.npmjs.com/package/msgsys)
+
+* [Buy my a coffee](https://www.buymeacoffee.com/aleclercq)
